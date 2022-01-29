@@ -1,11 +1,67 @@
 body {
-    background-color:#faf6e9;
-    margin-left: 20px;
-    max-width: 600px;
+   
+   
+   
+  
 }
 
-h1 { color: #4d4b39; font-family: 'Trocchi', serif; font-size: 45px; font-weight: normal; line-height: 48px; margin: 0; }
+.centralizador{
 
+    
+    background-color:#faf6e9;
+   
+    padding: 70px 0;
+    border: 3px solid green;
+    text-align: center;
+
+    width: 800px;
+    margin-left: 30px;
+    margin-right: 30px;
+   
+
+}
+
+
+
+
+.nome { 
+  text-align: center;
+    color: #4d4b39; font-family: 'Trocchi', serif; 
+    font-size: 25px; font-weight: normal; line-height: 48px; margin: 0; }
+
+
+.intro {
+
+padding: 10px;
+;
+width: 800px;
+height: 400px;
+margin: 10px;
+background-color: #f9f7e4;
+}
+
+
+    .conteiner_texto {
+        float: left; 
+        height: 400px;
+    margin-bottom: 20px;
+    
+        width: 400px;
+    }
+ 
+    .foto { 
+
+    float: right;
+
+    border-radius: 40%;
+    }
+    a:hover.foto { 
+        border: 2px solid red;
+        border-radius: 40%;
+        opacity: 0.5;
+
+
+    }
 
 h2 { color: #7c795d; font-family: 'Source Sans Pro', sans-serif; font-size: 28px; font-weight: 400; line-height: 32px; margin: 0 0 24px; }
 
@@ -26,13 +82,45 @@ a:hover { color: #ffcc66 }
 }
 
 
-ul {
+.lista{
     background-color: #E9F1F7;
     padding: 14px;
     padding-left: 35px;
     color: rgb(106, 90, 0);
+    font-size-adjust: inherit;
+    line-height: 12px;
+
+
+}
+.portfolio{
+background-color: lavender;
+   
+    padding: 20px;
+    max-height: 800px;
+    max-width: 600px;
+    display: flex;
+  
 
 }
 
+    .left {
+       float: left;
+       position: relative;
+       width: 350px;
+       
+           
+
+
+    }
+
+    .right{          
+        float: right;
+        vertical-align: top;
+        position: relative;
+        width: 350px;
+     
+        
+        
+    }
 
 
